@@ -33,6 +33,9 @@ export const CounterApp = ({ value }) => {
      <button onClick={ () =>{Decrease()} }> -1 </button>
      <button onClick={ () => {Reset()} }> Reset </button>
 
+      <div className="nav">
+        Hola soy un nav
+      </div>
     </>
 
   )
